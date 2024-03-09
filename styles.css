@@ -171,9 +171,14 @@ article{
     font-size: 16px;
 }
 
-/* NOTE - need to do footer next */
-
-
+footer{
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    color: #e5e7eb;
+    font-weight: 300;
+    margin: 25px;
+}
 /* borders ------------------------ */
 /*  
 section {
