@@ -66,14 +66,18 @@ h1{
     color: #f9faf8;
     font-weight: 800;
 }
-.signup{
+.signup,
+.action-container{
+    color:#f9faf8;
     background-color: #3882f6;
+}
+.signup,
+.signup-bottom{
     width: 90px;
     border-radius: 5px;
     text-align: center;
     font-size: 18px;
     padding: 2px;
-    color: white;
 }
 
 /* info section--- */
@@ -133,12 +137,29 @@ article{
 }
 /* cal to actionm section */
 .action-section{
-    border: 2px solid red;
     margin: 0 auto;
 }
 
 .action-container{
     display: flex;
+    border: 3px solid green;
+}
+.action-container .action{
+    margin: 0;
+}
+.signup-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #f9faf8;
+    /* note:
+    need to make nbutton smaller*/
+
+}
+.action-container a{
+    color: #f9faf8;
+    border: 2px solid white;
+    padding: 10px;
 }
 /* borders ------------------------ */
 section {
@@ -162,6 +183,9 @@ li{
 .hero-text,
 .image{
     border: 2px solid green;
+}
+.action-container div{
+    /* border: 2px solid white; */
 }
 /* -------------------------------- */
 
