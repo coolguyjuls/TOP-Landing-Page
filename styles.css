@@ -36,6 +36,7 @@ header{
 .logo{
     color: #f9faf8;
     font-size: 24px;
+    font-weight: 600;
 }
 ul{
     display: flex;
@@ -50,10 +51,10 @@ ul{
     display: flex;
     justify-content: center;
     margin: 70px auto;
-    width: 80%;
+    width: 900px;
     height: 250px;
-    gap: 50px;
-    border: 2px solid red;
+    gap: 10px;
+    /* border: 2px solid red; */
 }
 .hero-text{
     width: 50%;
@@ -61,7 +62,7 @@ ul{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 
 .hero a{
@@ -69,15 +70,16 @@ ul{
     font-size: 16px;
     color: #f9faf8;
     background-color: #3882f6;
-    padding: 4px 30px;
+    padding: 4px 20px;
     border-radius: 5px;
-    margin-left: -20%;
+    margin-left: -20px;
 }
+
 .image{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     width: 50%;
     background-color: #6E7271;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     margin-left: 60px;
 }
 h1{
@@ -139,7 +141,7 @@ article{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin: 100px auto;
 }
 .quote-section .quote{
