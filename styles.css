@@ -79,9 +79,12 @@ ul{
     /* border: 2px solid white; */
     width: 50%;
     background-color: #6E7271;
-    /* margin-bottom: 20px; */
     margin-left: 60px;
     flex-shrink: none;
+}
+.image img{
+    height:100%;
+    width: 100%;
 }
 h1{
     font-size: 48px;
