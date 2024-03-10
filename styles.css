@@ -81,6 +81,7 @@ ul{
     background-color: #6E7271;
     /* margin-bottom: 20px; */
     margin-left: 60px;
+    flex-shrink: none;
 }
 h1{
     font-size: 48px;
@@ -113,6 +114,7 @@ h1{
     display: flex;
     gap: 30px;
     margin-bottom: 100px;
+    flex-wrap: wrap;
 }
 article{
     height:200px;
